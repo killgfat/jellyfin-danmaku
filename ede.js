@@ -13,9 +13,9 @@
 // @connect      *
 // @match        *://*/*/web/index.html
 // ==/UserScript==
-const opacity = 1.0 // 修改此处设置弹幕透明度
 const fontWeight = 600 // 修改此处设置弹幕字重
 const fontSize = 24; // 修改此处设置弹幕字体大小
+const opacity = 0.7; //修改此处设置弹幕透明度
 
 (async function () {
     'use strict';
@@ -637,7 +637,9 @@ const fontSize = 24; // 修改此处设置弹幕字体大小
             _container.childNodes.forEach(function (element) {
                 if (element.nodeName == 'CANVAS') {
                     element.style.position = 'absolute';
-                    element.style.top = '18px';
+                    element.style.top = '0px';
+                    element.style.marginTop = '18px';
+                    element.style.opacity = `${opacity}`;
                 }
             });
 
@@ -767,9 +769,9 @@ const fontSize = 24; // 修改此处设置弹幕字体大小
                             // For CanvasRenderer:
                             font: `${fontWeight} ${fontSize}px sans-serif`,
                             fillStyle: `#${color}`,
-                            opacity: `${opacity}`,
                             strokeStyle: color === '000000' ? '#fff' : '#000',
                             lineWidth: 2.0,
+                            // globalAlpha = 0.5,
                         },
                     };
                 })

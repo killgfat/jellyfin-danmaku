@@ -736,8 +736,8 @@
 
         function danmakuParser($obj) {
             //const $xml = new DOMParser().parseFromString(string, 'text/xml')
-            // const fontSize = Math.round(((window.screen.height > window.screen.width ? window.screen.width : window.screen.height) / 1080) * 18);
-            const fontSize = 24; // font size is buggy on mobile, fixed to 18
+            const fontSize = Math.round(((window.screen.height > window.screen.width ? window.screen.width : window.screen.height) / 1080) * 18);
+            // const fontSize = 24; // font size is buggy on mobile, fixed to 18
             showDebugInfo('Screen: ' + window.screen.width + 'x' + window.screen.height);
             showDebugInfo('fontSize: ' + fontSize);
             return $obj

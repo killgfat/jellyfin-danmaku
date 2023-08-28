@@ -11,7 +11,7 @@
 
 ### 浏览器插件(推荐)
 
-[添加脚本](https://jellyfin-danmaku.pages.dev/ede.user.js)
+[添加脚本](https://raw.githubusercontent.com/killgfat/jellyfin-danmaku/jellyfin/ede.js)
 
 ### 修改服务端
 

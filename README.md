@@ -18,13 +18,13 @@
 修改文件 `/jellyfin/jellyfin-web/index.html` (Docker版,其他类似,比如Debian下是`/usr/share/jellyfin/web/index.html`),在`</body>`前添加如下标签
 
 ```html
-<script src="https://jellyfin-danmaku.pages.dev/ede.user.js" defer></script>
+<script src="https://raw.githubusercontent.com/killgfat/jellyfin-danmaku/jellyfin/ede.js" defer></script>
 ```
 
 Docker中的操作方式为，用root进入容器终端后，运行以下命令
 
 ```bash
-sed -i 's#</body>#<script src="https://jellyfin-danmaku.pages.dev/ede.user.js" defer></script></body>#' /jellyfin/jellyfin-web/index.html
+sed -i 's#</body>#<script src="https://raw.githubusercontent.com/killgfat/jellyfin-danmaku/jellyfin/ede.js" defer></script></body>#' /jellyfin/jellyfin-web/index.html
 ```
 
 该方式安装与浏览器插件安装**可同时使用不冲突**

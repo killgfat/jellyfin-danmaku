@@ -1,5 +1,6 @@
 # jellyfin-danmaku
-
+[原项目](https://github.com/Izumiko/jellyfin-danmaku)
+对弹幕进行了字体的修改
 ## Jellyfin danmaku extension
 ![截图](https://raw.githubusercontent.com/RyoLee/dd-danmaku/res/S0.png)
 

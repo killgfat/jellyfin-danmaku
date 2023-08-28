@@ -638,6 +638,7 @@ const opacity = 0.7; //修改此处设置弹幕透明度
                 if (element.nodeName == 'CANVAS') {
                     element.style.position = 'absolute';
                     element.style.top = '0px';
+                    element.style.bottom = '0px';
                     element.style.marginTop = '18px';
                     element.style.opacity = `${opacity}`;
                 }
@@ -767,10 +768,14 @@ const opacity = 0.7; //修改此处设置弹幕透明度
                             //     color === '00000' ? '-1px -1px #fff, -1px 1px #fff, 1px -1px #fff, 1px 1px #fff' : '-1px -1px #000, -1px 1px #000, 1px -1px #000, 1px 1px #000',
 
                             // For CanvasRenderer:
-                            font: `${fontWeight} ${fontSize}px sans-serif`,
+                            font: `${fontWeight} ${fontSize}px YaHei,sans-serif`,
                             fillStyle: `#${color}`,
                             strokeStyle: color === '000000' ? '#fff' : '#000',
                             lineWidth: 2.0,
+                            shadowOffsetX: -3,//用来设定阴影在 X轴的延伸距
+		                        shadowOffsetX: -3,//用来设定阴影在 Y轴的延伸距
+		                        shadowBlur: 2,//设定阴影的模糊程度 默认0
+ 			                      shadowColor: "rgba(0, 0, 0, 0.5)",//设定阴影颜色效果
                             // globalAlpha = 0.5,
                         },
                     };

@@ -639,7 +639,6 @@ const opacity = 0.7; //修改此处设置弹幕透明度
                     element.style.position = 'absolute';
                     element.style.top = '0px';
                     element.style.bottom = '0px';
-                    element.style.marginTop = '18px';
                     element.style.opacity = `${opacity}`;
                 }
             });

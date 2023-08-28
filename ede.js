@@ -11,7 +11,7 @@
 // @downloadURL  https://cdn.jsdelivr.net/gh/Izumiko/jellyfin-danmaku@gh-pages/ede.user.js
 // @grant        GM_xmlhttpRequest
 // @connect      *
-// @match        *://*/*/web/index.html
+// @match        *://*/web/index.html
 // ==/UserScript==
 const fontWeight = 600 // 修改此处设置弹幕字重
 const fontSize = 24; // 修改此处设置弹幕字体大小

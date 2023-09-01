@@ -5,7 +5,7 @@
 // @author       RyoLee
 // @version      1.12
 // @copyright    2022, RyoLee (https://github.com/RyoLee)
-// @license      MIT; https://raw.githubusercontent.com/Izumiko/jellyfin-danmaku/jellyfin/LICENSE
+// @license      MIT; https://raw.githubusercontent.com/killgfat/jellyfin-danmaku/jellyfin/LICENSE
 // @icon         https://github.githubassets.com/pinned-octocat.svg
 // @updateURL    https://cdn.jsdelivr.net/gh/Izumiko/jellyfin-danmaku@gh-pages/ede.user.js
 // @downloadURL  https://cdn.jsdelivr.net/gh/Izumiko/jellyfin-danmaku@gh-pages/ede.user.js
